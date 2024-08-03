@@ -1,1 +1,99 @@
 
+History of Java
+Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995. 
+Originally called "Oak," it was later renamed Java. The language was designed to be platform-independent, 
+allowing developers to write code once and run it anywhere ("Write Once, Run Anywhere" - WORA). Java's design emphasizes portability,
+security, and ease of use. It gained popularity due to its use in web development, particularly for creating applets, and later expanded 
+to enterprise, mobile, and embedded systems.
+
+Difference Between Java and C++
+1. Language Paradigms:
+
+Java: Purely object-oriented, with all code residing within classes. It does not support multiple inheritance directly.
+C++: A hybrid language that supports both procedural and object-oriented programming. It allows multiple inheritance.
+2. Memory Management:
+
+Java: Has automatic garbage collection, which manages memory allocation and deallocation.
+C++: Requires manual memory management using new and delete operators.
+3. Platform Independence:
+
+Java: Platform-independent due to the Java Virtual Machine (JVM). Code is compiled to bytecode, which can run on any machine with a JVM.
+C++: Platform-dependent; code is compiled into machine code specific to the target operating system and hardware.
+4. Pointers:
+
+Java: Does not support explicit pointers, enhancing security and reducing errors.
+C++: Supports pointers, providing more control but also increasing the risk of memory-related issues.
+5. Standard Libraries:
+
+Java: Has a rich standard library that is consistent across platforms.
+C++: The standard library is less extensive and can vary between implementations.
+Difference Between JDK, JVM & JRE
+1. JDK (Java Development Kit):
+
+A complete development kit that includes the JRE, an interpreter/loader (Java), a compiler (javac), an archiver (jar), and other tools needed for Java development.
+2. JVM (Java Virtual Machine):
+
+A virtual machine that runs Java bytecode. It provides a runtime environment and is responsible for converting bytecode into machine-specific code.
+3. JRE (Java Runtime Environment):
+
+A subset of the JDK, the JRE contains the JVM and standard libraries needed to run Java applications. It does not include development tools like compilers or debuggers.
+Difference Between Static & Dynamic Binding
+1. Static Binding (Early Binding):
+
+The method call is resolved at compile time. It occurs with static, private, and final methods, where the type of object is determined by the reference type.
+2. Dynamic Binding (Late Binding):
+
+The method call is resolved at runtime. It occurs with overridden methods in inheritance, where the type of object is determined by the actual object type.
+Escape Sequences in Java
+Escape sequences are special characters used in Java strings to represent certain characters that cannot be typed directly. Examples include:
+
+\n : Newline
+\t : Tab
+\" : Double quote
+\' : Single quote
+\\ : Backslash
+Variables & Naming Rules in Java
+Variables are storage locations with a specific type that holds values. They have a name (identifier) and can store data like integers, characters, etc.
+
+Naming Rules:
+
+Names must start with a letter, underscore (_), or dollar sign ($).
+Subsequent characters can be letters, digits, underscores, or dollar signs.
+Names are case-sensitive.
+Cannot use reserved keywords (like int, class, void).
+Use of super & this Keyword in Java
+super: Refers to the parent class and is used to access methods or constructors from the parent class.
+this: Refers to the current instance of the class. It is used to distinguish between instance variables and parameters with the same name.
+Class & Object in Java
+Class: A blueprint or template that defines the properties (attributes) and behaviors (methods) of objects.
+Object: An instance of a class that contains real values instead of variables. It represents a specific entity in the program.
+Abstraction in Java
+Abstraction is a concept that hides the complex implementation details and shows only the essential features of an object.
+It can be achieved using abstract classes and interfaces.
+
+Real-world Example: A car dashboard simplifies the complex mechanics of a car, providing essential controls like steering, brakes, 
+and acceleration without showing the inner workings of the engine.
+
+Encapsulation in Java
+Encapsulation is the bundling of data (attributes) and methods (functions) that manipulate the data into a single unit called a class.
+It also restricts access to certain components using access modifiers (private, protected, public).
+
+Real-world Example: A capsule contains medicine and is sealed. Only the necessary medicine is exposed to the patient, while the rest is hidden.
+
+Inheritance in Java
+Inheritance allows a new class to inherit properties and methods from an existing class. It promotes code reusability and establishes 
+a relationship between parent and child classes.
+
+Real-world Example: A class Vehicle could be the parent class with properties like speed and methods like move(). The Car and Bike 
+classes can inherit these properties and methods, adding their own specific features.
+
+Polymorphism in Java
+Polymorphism is the ability of an object to take on many forms. It allows one interface to be used for a general class of actions.
+The most common use of polymorphism is when a parent class reference is used to refer to a child class object.
+
+Real-world Example: A general class Shape could have a method draw(). Subclasses like Circle, Rectangle, and Triangle would each 
+implement the draw() method differently. Thus, the same method name draw() can behave differently based on the object that calls it.
+
+!!!!!!!!!!!=======!!!!!!!!!========!!!!!!!!!========!!!!!!!!!========!!!!!!!========!!!!!!===========!!!!!!!!!!!!=======!!!!!!!!!========!!!!!!!!!========!!!!!!!!!========!!!!!!!========
+_____---------_______________---------______--------___________________________________________________________________________________________________________________________
+!!!!!!!!!!!=======!!!!!!!!!========!!!!!!!!!========!!!!!!!!!========!!!!!!!========!!!!!!===========!!!!!!!!!!!!=======!!!!!!!!!========!!!!!!!!!========!!!!!!!!!========!!!!!!!========
